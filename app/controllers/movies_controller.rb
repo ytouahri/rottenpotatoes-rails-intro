@@ -16,16 +16,6 @@ class MoviesController < ApplicationController
 
 
 
-  #  @movies = Movie.all
-    def index
-   @movies = Movie.all(:order => "title ASC, release_date ASC")
-   if params[:sort_by] == 'title'
-      @title_header = 'hilite'
-    elsif params[:sort_by] == 'release_date'
-      @release_header ='hilite'
-   end 
-    end
-
 
 
 
