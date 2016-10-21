@@ -10,7 +10,7 @@ class MoviesController < ApplicationController
     # will render app/views/movies/show.<extension> by default
   end
 
-
+ 
  def index
     # Deal with movie ratings now...
     @all_ratings = Movie.get_possible_ratings
@@ -53,7 +53,7 @@ class MoviesController < ApplicationController
     else
       
     end
-  end
+ end
 
 
 
